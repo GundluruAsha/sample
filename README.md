@@ -1,1 +1,2 @@
-# sample
+hi 
+welcom to github
