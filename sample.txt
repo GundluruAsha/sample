@@ -1,4 +1,23 @@
-Hi 
-
-
-welcome to GitHub
+pipeline{
+   agent any
+   stages{
+      stage('one'){
+        steps{
+        echo 'the frist build'
+        }
+         stage('Two'){
+        steps{
+        echo 'the second build'
+        }
+        stage('Three'){
+        steps{
+        echo 'the third build'
+        }
+        
+        
+        
+        }
+   
+   
+   
+   }}
