@@ -15,7 +15,7 @@ pipeline{
         }
         stage('four'){
         steps{
-        echo 'mvn -version'
+        echo 'mvn --version'
         }
         
         
